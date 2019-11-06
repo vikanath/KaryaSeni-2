@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bisque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/judulRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:typeface="monospace">
+    </TextView>
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulRegis"
+        android:text="-Daftar Akun-"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_marginLeft="165dp"/>
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keterangan"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editEmail2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email2"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmail2"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password2"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnRegis"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Sign up"
+        android:textSize="20sp"/>
+</RelativeLayout>

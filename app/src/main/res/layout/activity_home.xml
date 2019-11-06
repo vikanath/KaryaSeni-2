@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bisque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/judulHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vikanath's APP"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="30sp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulHome"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/camera"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="145dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/camera"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="250dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a pict!"
+        android:layout_below="@id/arrow"
+        android:layout_marginLeft="280dp"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+</RelativeLayout>
